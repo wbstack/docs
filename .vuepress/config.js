@@ -71,6 +71,7 @@ module.exports = {
             '',
             'open-source',
             'funding',
+            'history',
           ]
         }
       ],

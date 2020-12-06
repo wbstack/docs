@@ -1,6 +1,6 @@
 # History
 
-Here you will find some of the key historical point for WBStack.
+Here you will find some of the key historical points for WBStack.
 
 Throughout it's life the private git repository (original mono-repo) has seen 1600+ commits over 3 years (as of Dec 2020).
 
@@ -10,7 +10,7 @@ WBStack ran through 2020 with little development or maintenance work, but a few 
 
 During this time it upgraded from MediaWiki 1.33 to 1.35, and various services were added or changed.
 
-Up until 2020 all of the code existed in a private mono-repo. Through November and December it was [all opensourced](https://github.com/wbstack).
+Up until 2020 all of the code existed in a private mono-repo. During November and December it was [all opensourced](https://github.com/wbstack).
 
 **Posts:**
 
@@ -40,7 +40,7 @@ The vision of "Wikibase as a service" was initially floated with WMDE.
 
 ## 2017 - Docker images
 
-The Wikibase docker images that were created as part of the WBStack effort are a big hit as they allow for a effortless Wikibase setup. These were presented at the 2017 Wikidata birthday.
+The Wikibase docker images that were created as part of the WBStack effort are a big hit as they allow for an effortless Wikibase setup. These were presented at the 2017 Wikidata birthday.
 
 **Posts:**
 

@@ -1,0 +1,16 @@
+{
+  "name": "wbstack-docs",
+  "version": "0.0.1",
+  "description": "Documentation site for WBStack",
+  "main": "index.js",
+  "repository": "https://github.com/wbstack/docs",
+  "scripts": {
+    "dev": "vuepress dev --no-clear-screen .",
+    "build": "vuepress build ."
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3",
+    "vuepress-plugin-mermaidjs": "^1.8.1"
+  }
+}

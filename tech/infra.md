@@ -8,9 +8,10 @@ Order of requests:
 
 1) The internet makes requests through a cloud provided load balancer.
 2) That load balancer passes all requests through to the Ingress on Kubernetes.
-3) The Ingress terminates HTTPs and routes requests
-  a) To a specific se
-4) Based on the path of the request Nginx will route traffic to the appropriate service.
+3) The Ingress terminates HTTPs and routes requests:
+    1) to Nginx
+    1) to the API and UI
+4) Based on the path of the request, Nginx will route traffic to the appropriate service.
 
 ```mermaid
 graph LR;
@@ -27,7 +28,7 @@ graph LR;
 
 ### cert-manager
 
-[cert-manager](https://cert-manager.io/) provides automate certificate management in Kubernetes.
+[cert-manager](https://cert-manager.io/) provides automatic certificate management in Kubernetes.
 
 This is used in conjunction with the ingress.
 

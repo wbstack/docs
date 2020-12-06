@@ -11,6 +11,11 @@ module.exports = {
   description: description,
 
   /**
+   * Ref：https://v1.vuepress.vuejs.org/guide/assets.html#base-url
+   */
+  base: "/docs/",
+
+  /**
    * Extra tags to be injected to the page HTML `<head>`
    *
    * ref：https://v1.vuepress.vuejs.org/config/#head
@@ -28,9 +33,11 @@ module.exports = {
    */
   themeConfig: {
     repo: '',
-    editLinks: true,
     docsDir: '',
-    editLinkText: '',
+    docsRepo: 'wbstack/docs',
+    docsBranch: 'main',
+    editLinks: true,
+    editLinkText: 'Edit this page on Github!',
     lastUpdated: true,
     nav: [
       {

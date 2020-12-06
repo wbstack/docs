@@ -10,9 +10,10 @@ The ingress attaches to a LoadBalancer provided by Google Cloud.
 
 ```mermaid
 graph LR
-    Internet-->LoadBalancer-->Ingress-->platform-nginx
-    Ingress-->api
-    Ingress-->ui
+    Internet:::other-->LoadBalancer:::other-->Ingress-->platform-nginx:::other
+    Ingress-->api:::other
+    Ingress-->ui:::other
+    classDef other fill:#ffcccb;
 ```
 
 **Sequence:**
@@ -36,11 +37,12 @@ Requests to platform services such as the main UI or API do not go via this laye
 
 ```mermaid
 graph LR
-    platform-nginx--/w/rest.php, /w/rest.php-->mediawiki-api
-    platform-nginx--/w, /wiki-->mediawiki
-    platform-nginx--/query-->queryservice-ui
-    platform-nginx--/query/sparql-->queryservice
-    platform-nginx--/???-->etc...
+    platform-nginx--/w/rest.php, /w/rest.php-->mediawiki-api:::other
+    platform-nginx--/w, /wiki-->mediawiki:::other
+    platform-nginx--/query-->queryservice-ui:::other
+    platform-nginx--/query/sparql-->queryservice:::other
+    platform-nginx--/???-->etc...:::other
+    classDef other fill:#ffcccb;
 ```
 
 The exact routing can be seen in nginx.conf

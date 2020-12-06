@@ -6,23 +6,45 @@ Throughout it's life the private git repository (original mono-repo) has seen 16
 
 ## 2020 - Open Source
 
-WBStack ran through 2020 with little development work or maintenance.
+WBStack ran through 2020 with little development or maintenance work, but a few large updates..
 
-During this time it upgraded from MediaWiki 1.33 to 1.35.
+During this time it upgraded from MediaWiki 1.33 to 1.35, and various services were added or changed.
 
 Up until 2020 all of the code existed in a private mono-repo. Through November and December it was [all opensourced](https://github.com/wbstack).
 
+**Posts:**
+
+- [Addshore - Infrastructure](https://addshore.com/2020/01/wbstack-infrastructure/)
+- [Addshore - 2020 Update 1](https://addshore.com/2020/04/wbstack-2020-update-1/)
+- [Addshore - 2020 Update 2](https://addshore.com/2020/05/wbstack-2020-update-2/)
+
 ## 2019 - Alpha Release
 
-The initial version of WBStack was released at Wikidatacon in 2019.
+The project needed a name, and "OpenCura" was first selected, as a short hint toward open curation.
+Wikibase Stack and WBStack were finally settled on.
+
+An initial demo version of the service was ready in September 2019.
+
+The alpha version of WBStack was released at Wikidatacon in 2019.
 
 You can read the [original announcement post here](https://addshore.com/2019/11/an-introduction-to-wbstack/) and can watch the original live demo [here 📺](https://media.ccc.de/v/wikidatacon2019-19-lightning_talks_2#t=1147).
 
-## 2018 - Docker images
+**Posts:**
 
-The Wikibase docker images that were created as part of the WBStack effort are a big hit as they allow for a effortless Wikibase setup.
+- [Addshore - An introduction to WBStack](https://addshore.com/2019/11/an-introduction-to-wbstack/)
+- [Addshore - November Review](https://addshore.com/2019/11/wbstack-november-review/)
 
-The direction of "Wikibase as a service" was initially floated with WMDE.
+## 2018 - Wbaas
+
+The vision of "Wikibase as a service" was initially floated with WMDE.
+
+## 2017 - Docker images
+
+The Wikibase docker images that were created as part of the WBStack effort are a big hit as they allow for a effortless Wikibase setup. These were presented at the 2017 Wikidata birthday.
+
+**Posts:**
+
+- [Addshore - Wikibase docker images](https://addshore.com/2017/12/wikibase-docker-images/)
 
 ## 2017 - Implementation Start
 
@@ -68,7 +90,7 @@ Sites could be created for individual users, or for organizations.
 
 ## 2015 - MWaas
 
-Back in 2015 the idea was MWaas (MediaWiki as a service).
+Back in 2015 the idea was MWaas (MediaWiki as a service) started being explored in a Google Doc.
 
 > Main website would allow people to register for free, they would be presented with a dashboard.
 >

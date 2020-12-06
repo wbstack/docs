@@ -91,10 +91,12 @@ module.exports = {
       ],
       '/users/': [
         {
-          title: 'User Docss',
+          title: 'User Docs',
           collapsable: false,
           children: [
             '',
+            'platform',
+            'wiki',
           ]
         }
       ],

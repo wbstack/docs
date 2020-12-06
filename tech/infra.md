@@ -9,8 +9,8 @@ Order of requests:
 1) The internet makes requests through a cloud provided load balancer.
 2) That load balancer passes all requests through to the Ingress on Kubernetes.
 3) The Ingress terminates HTTPs and routes requests:
-    1) to Nginx
-    1) to the API and UI
+    1) to Nginx (for the sites hosted by the platform)
+    1) to a general service (such as the API or UI)
 4) Based on the path of the request, Nginx will route traffic to the appropriate service.
 
 ```mermaid

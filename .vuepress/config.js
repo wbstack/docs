@@ -81,6 +81,7 @@ module.exports = {
           collapsable: true,
           children: [
             '',
+            'glossary',
             'public',
             'external',
           ]

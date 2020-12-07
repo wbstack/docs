@@ -1,4 +1,4 @@
-# High Level
+# Overview
 
 WBStack is designed to run on Kubernetes with as little lock in to any services as possible.
 

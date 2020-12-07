@@ -10,33 +10,54 @@ It might be nice to try and move all of this to charts to be deployed via helm..
 
 But for now they must be deployed using `kubectl`.
 
-### Namespaces, Roles and StorageClasses
+## StorageClass
 
-- 00-namespace-cert-manager.yaml - Create a namespace for cert-manager to operate in.
-- 00-secret-creators.yaml - Roles for a secret creation service used in some later services (for creating random services password etc.)
-- 00-storageclass-faster.yaml - Creates a SSD based StorageClass called 'faster' or use by services that need fast disks.
-
-You can apply these individually, or all together.
+In order to use SSD persistent disks within a GKE cluster [a new StorageClass must be created](https://cloud.google.com/kubernetes-engine/docs/how-to/persistent-volumes/ssd-pd)
 
 ```sh
-kubectl apply -f ./k8s/00-base/*
+kubectl apply -f k8s/definitions/storageclass/faster.yaml
 ```
 
-### Custom Resource Definitions
+## Secret Creators
 
-cert-manager needs some custom resources to be defined.
+Some tasks make use of [replicated/k8s-secret-generator](https://github.com/replicatedhq/k8s-secret-generator) to generate random data and save it as a secret within Kubernetes.
+
+This is currently used for creating some SQL users.
+
+The secret-generator needs access to be able to create secrets ([see docs](https://github.com/replicatedhq/k8s-secret-generator#authorization))
+
+```sh
+kubectl apply -f k8s/definitions/secret-creators/role.yaml
+```
+
+## Cert Manager
+
+Cert manager has quite some setup despite the fact the final service is deployed using helm.
+
+A custom namespace is needed.
+
+```sh
+kubectl apply -f k8s/definitions/cert-manager/00-namespace.yaml
+```
+
+And custom resource definitions. 
 
 This YAML is taken directory from the cert-manager release, and is held here for convenice (instead of referencing a URL).
 
+
 ```sh
-kubectl apply -f ./k8s/01-crds/cert-manager.yaml
+kubectl apply -f k8s/definitions/cert-manager/01-crds.yaml
 ```
 
-### cert-manager - Certificates
+Finally we can state that we want some certificates.
 
-cert-manager should create some certificates once it is running.
-
-These files define the certificates that the kubernetes cluster in general will want.
 
 ```sh
-kubectl apply -f ./k8s/02-cert-manager*
+kubectl apply -f k8s/definitions/cert-manager/02-certificates-*
+```
+
+::: warning
+If you try to create the certificate resources to quickly after applying the CRDs you may experience issues.
+
+Wait a few seconds and try again.
+:::

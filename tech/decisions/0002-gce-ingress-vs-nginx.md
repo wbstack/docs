@@ -1,7 +1,7 @@
+# GCE Ingress vs Nginx
+
 Date: 17 May 2019
 Decision: Nginx Ingress
-
-**GCE Ingress vs Nginx**
 
 There is a price for using the GCE ingress with a GCE Loadbalancer
 https://cloud.google.com/compute/pricing#lb

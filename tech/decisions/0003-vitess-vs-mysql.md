@@ -1,7 +1,7 @@
+# Vitess vs Mysql / Mariadb
+
 Date: 23 August 2019
 Decision: Simple MySQL replicated DB for now. Maybe Vitess later.
-
-**Vitess vs Mysql / Mariadb**
 
 Even if OC grows quickly, there is no clear need for vitess for imediate sharding.
 A single master setup (at least for wiki dbs) should suffice, and if it does not the

@@ -91,6 +91,7 @@ module.exports = {
         {
           title: 'Decision Records',
           collapsable: false,
+          sidebarDepth: 0,
           children: [
             'decisions/',
             'decisions/0000-gce-vs-other-k8s-cluster',

@@ -1,3 +1,5 @@
+# One WDQS server vs a cluster
+
 Date: 27 August 2019
 Decision: Single service, namespace & prefix adjusted, more complex later.
 

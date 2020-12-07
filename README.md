@@ -1,3 +1,3 @@
 # docs
 
-Code for a docs site generated using vuepress
+Code for a docs site generated using vuepress.

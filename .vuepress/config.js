@@ -102,6 +102,16 @@ module.exports = {
           ]
         },
         {
+          title: 'Kubernetes',
+          collapsable: true,
+          children: [
+            'k8s/',
+            'k8s/definitions',
+            'k8s/helm',
+            'k8s/services',
+          ]
+        },
+        {
           title: 'Decision Records',
           collapsable: true,
           sidebarDepth: 0,

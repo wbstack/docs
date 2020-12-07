@@ -77,14 +77,12 @@ module.exports = {
       ],
       '/tech/': [
         {
-          title: 'Overview',
+          title: 'General',
           collapsable: true,
           children: [
             '',
             'public',
-            'infra',
             'external',
-            'platform',
           ]
         },
         {
@@ -109,6 +107,20 @@ module.exports = {
             'k8s/definitions',
             'k8s/helm',
             'k8s/services',
+          ]
+        },
+        {
+          title: 'Services',
+          collapsable: true,
+          children: [
+            'services/',
+            'services/ingress',
+            'services/persistence',
+            'services/platform',
+            'services/mediawiki',
+            'services/queryservice',
+            'services/magnustools',
+            'services/platform-nginx',
           ]
         },
         {

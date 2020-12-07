@@ -28,6 +28,21 @@ sequenceDiagram
 
 ## tools-quickstatements
 
+Added to the platform by popular demand as one of the main external tools used with Wikibase.
+
+### Testing
+
+Can be tested by using
+
+```
+CREATE
+```
+
+in the edit box and clicking import and run
 ## tools-cradle
 
+Cradle uses widar for authentication.
+
 ## tools-widar
+
+Widar is only deployed as cradle uses it for OAuth.

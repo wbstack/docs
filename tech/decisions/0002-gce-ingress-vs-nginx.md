@@ -1,5 +1,9 @@
 # GCE Ingress vs Nginx
 
+::: warning
+This decision document has not yet been formatted for nice display...
+:::
+
 Date: 17 May 2019
 Decision: Nginx Ingress
 

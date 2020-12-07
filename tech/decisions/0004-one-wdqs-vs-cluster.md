@@ -1,5 +1,9 @@
 # One WDQS server vs a cluster
 
+::: warning
+This decision document has not yet been formatted for nice display...
+:::
+
 Date: 27 August 2019
 Decision: Single service, namespace & prefix adjusted, more complex later.
 

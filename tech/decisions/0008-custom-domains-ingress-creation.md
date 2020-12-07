@@ -1,5 +1,9 @@
 # Custom domain ingress creation
 
+::: warning
+This decision document has not yet been formatted for nice display...
+:::
+
 Date: 10 April 2020
 Decision: Implemented
 

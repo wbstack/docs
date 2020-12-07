@@ -1,5 +1,9 @@
 # Backend APIs and Services
 
+::: warning
+This decision document has not yet been formatted for nice display...
+:::
+
 Date: 27 August 2019
 Decision: Develop extra backend services as part of main Lumen codebase
 BUT keep boundaries clean and code deployable as seperate workloads.

@@ -16,6 +16,8 @@ All captchas used in WBStack are currently reCaptcha captchas.
 
 All email from WBStack comes from Mailgun.
 
+**Dashboard:** https://app.eu.mailgun.com/app/sending/domains/mail.wbstack.com
+
 ## Let's Encrypt
 
 [Let's Encrypt](https://letsencrypt.org/) is a non-profit certificate authority run by Internet Security Research Group.

@@ -1,5 +1,9 @@
 # Vitess vs Mysql / Mariadb
 
+::: warning
+This decision document has not yet been formatted for nice display...
+:::
+
 Date: 23 August 2019
 Decision: Simple MySQL replicated DB for now. Maybe Vitess later.
 

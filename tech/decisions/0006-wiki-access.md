@@ -1,5 +1,9 @@
 # Public access of Wikis
 
+::: warning
+This decision document has not yet been formatted for nice display...
+:::
+
 Date: Prior to 27 August 2019
 Decision: See below
 

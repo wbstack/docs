@@ -87,6 +87,21 @@ module.exports = {
             'external',
             'platform',
           ]
+        },
+        {
+          title: 'Decision Records',
+          collapsable: false,
+          children: [
+            'decisions/',
+            'decisions/0000-gce-vs-other-k8s-cluster',
+            'decisions/0001-gce-kubernetes-cluster-private-vs-public',
+            'decisions/0002-gce-ingress-vs-nginx',
+            'decisions/0003-vitess-vs-mysql',
+            'decisions/0004-one-wdqs-vs-cluster',
+            'decisions/0005-backend-apis-and-services',
+            'decisions/0006-wiki-access',
+            'decisions/0008-custom-domains-ingress-creation',
+          ]
         }
       ],
       '/users/': [

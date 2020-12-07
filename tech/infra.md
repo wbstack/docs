@@ -33,7 +33,7 @@ This is used in conjunction with the [Ingress](#ingress).
 
 [Nginx](https://www.nginx.com/) is used as a reverse proxy layer to perform path based routing to difference services for sites hosted on wbstack.
 
-Requests to platform services such as the main UI or API do not go via this layer.
+Requests to platform services such as the management UI or API do not go via this layer.
 
 ```mermaid
 graph LR

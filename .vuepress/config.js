@@ -77,11 +77,10 @@ module.exports = {
       ],
       '/tech/': [
         {
-          title: 'Tech Docs',
-          collapsable: false,
+          title: 'Overview',
+          collapsable: true,
           children: [
             '',
-            'deployment',
             'public',
             'infra',
             'external',
@@ -89,8 +88,22 @@ module.exports = {
           ]
         },
         {
+          title: 'Google Cloud',
+          collapsable: true,
+          children: [
+            'gce/',
+            'gce/ip',
+            'gce/dns',
+            'gce/gke',
+            'gce/serviceaccounts',
+            'gce/snapshots',
+            'gce/storage',
+            'gce/images',
+          ]
+        },
+        {
           title: 'Decision Records',
-          collapsable: false,
+          collapsable: true,
           sidebarDepth: 0,
           children: [
             'decisions/',

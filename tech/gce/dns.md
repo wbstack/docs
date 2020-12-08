@@ -26,7 +26,7 @@ You can check the DNS status using a tool such as [this](https://freedns.afraid.
 `NS` and `SOA` records are needed for both domains, when setting up the Google Cloud zone these should be provided for you when you `pull.sh`.
 
 ::: warning
-The nameservers that Google may want you to use for different zones may differ.
+The nameservers that Google want you to use for different zones may differ.
 
 For example `wbstack.com` uses `ns-cloud-e[1234].googledomains.com` but `opencura.com` uses `ns-cloud-d[1234].googledomains.com`.
 :::

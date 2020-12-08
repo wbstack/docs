@@ -2,7 +2,7 @@
 
 ## Persistent Disks
 
-GKE deployments make used of Google Persistent Disks.
+GKE deployments make use of Google Persistent Disks.
 
 A script exists in the deploy repo to check the current usage of the main disks `k8s/cmd/storage-check.sh`.
 

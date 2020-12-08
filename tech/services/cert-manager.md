@@ -41,6 +41,31 @@ It was [deprecated in 0.8](https://cert-manager.io/docs/installation/upgrading/u
 Watch this space.
 :::
 
+### Service account
+
+A Google Cloud service account is required so that cert-manager can interace with the Google DNS.
+
+In WBStack production this service account was created with deployment manager.
+You can find the old code for this [here](https://github.com/wbstack/deploy/tree/main/gce/serviceaccounts).
+
+The service account needs:
+
+- **Name:** certman-dns01-solver
+- **Role:** roles/dns.admin
+
+Once the service account has been created you need to get a key for the account and create it as a Kubernetes secret.
+Some sample commands for doing this are below:
+
+```sh
+gcloud iam service-accounts keys create ./certman-dns01-solver-1.json --iam-account certman-dns01-solver@wbstack.iam.gserviceaccount.com
+kubectl create secret generic clouddns-dns01-solver-svc-acct --namespace=cert-manager --from-file=key.json=./certman-dns01-solver-1.json --dry-run=true --output=yaml > ./clouddns-dns01-solver-svc-acct.yaml
+kubectl apply -f ./clouddns-dns01-solver-svc-acct.yaml
+```
+
+:::tip
+This secret name will be used in the CLusterIssuers below.
+:::
+
 ### Helmfiles
 
 The helmfile deployment is currently split in 2:

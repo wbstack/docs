@@ -22,7 +22,7 @@ kubectl apply -f k8s/definitions/storageclass/faster.yaml
 
 Some tasks make use of [replicated/k8s-secret-generator](https://github.com/replicatedhq/k8s-secret-generator) to generate random data and save it as a secret within Kubernetes.
 
-This is currently used for creating some SQL users.
+This is currently used for creating some SQL users for the API application.
 
 The secret-generator needs access to be able to create secrets ([see docs](https://github.com/replicatedhq/k8s-secret-generator#authorization))
 
@@ -32,32 +32,6 @@ kubectl apply -f k8s/definitions/secret-creators/role.yaml
 
 ## Cert Manager
 
-Cert manager has quite some setup despite the fact the final service is deployed using helm.
+The setup of cert-manager currently needs various definitions to be applied.
 
-A custom namespace is needed.
-
-```sh
-kubectl apply -f k8s/definitions/cert-manager/00-namespace.yaml
-```
-
-And custom resource definitions. 
-
-This YAML is taken directory from the cert-manager release, and is held here for convenice (instead of referencing a URL).
-
-
-```sh
-kubectl apply -f k8s/definitions/cert-manager/01-crds.yaml
-```
-
-Finally we can state that we want some certificates.
-
-
-```sh
-kubectl apply -f k8s/definitions/cert-manager/02-certificates-*
-```
-
-::: warning
-If you try to create the certificate resources to quickly after applying the CRDs you may experience issues.
-
-Wait a few seconds and try again.
-:::
+Read more [here](/tech/services/cert-manager.html#definitions).

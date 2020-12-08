@@ -117,6 +117,7 @@ module.exports = {
           children: [
             'services/',
             'services/ingress',
+            'services/cert-manager',
             'services/persistence',
             'services/platform',
             'services/mediawiki',

@@ -42,6 +42,35 @@ Reading:
 - [Quickstart with nginx ingress](https://docs.cert-manager.io/en/release-0.10/tutorials/acme/quick-start/index.html)
 - [gcloud dns01 docs](https://docs.cert-manager.io/en/latest/tasks/issuers/setup-acme/dns01/google.html)
 
+### Installation
+
+First you need to apply some of the static "definitions" to the Kubernetes cluster.
+
+These include:
+
+- A namespace for cert-manager to live in
+- The CRDs for cert-manager (Custom Resource definitions)
+- The certificates for our domains (See warning below)
+
+::: warning
+When applying the certificate you will currently see and error for `unknown field "acme" in io.cert-manager.v1alpha2.Certificate.spec`
+
+For now you can ignore this error with `--validate=false`
+
+::: details
+On WBStack this YAML file has not been applied in a while and currently still has some old definition in it.
+
+The acme key has been removed and this setup needs updating.
+
+It was [deprecated in 0.8](https://cert-manager.io/docs/installation/upgrading/upgrading-0.7-0.8/#performing-an-incremental-switch-to-the-new-format).
+
+Watch this space.
+:::
+
+Then you need to apply the cluster issuers from a helmfile. (PRIVATE values needed)
+
+Then you can run the cert-manager service.
+
 ### Debugging
 
 [https://docs.cert-manager.io/en/latest/reference/orders.html](https://docs.cert-manager.io/en/latest/reference/orders.html)

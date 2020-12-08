@@ -11,3 +11,10 @@ This is deployed using [Github actions](./.github/workflows/pages.build.yml) to 
 - `npm run build` - Create a build
 - `npm run test` - Run linting checks
 - `npm run fix` - Apply linting fixes
+
+**Images:**
+
+Try to not upload images into this repository.
+
+The current recommendation is to use [imgur](https://imgur.com/) to host images.
+For easy screengrabs and upload to imgur you can try [sharex](https://getsharex.com/) or something similar.

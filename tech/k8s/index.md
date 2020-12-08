@@ -63,9 +63,9 @@ You can read more about node draining [here](https://kubernetes.io/docs/tasks/ad
 Specific steps are listed [here](https://kubernetes.io/docs/tasks/administer-cluster/safely-drain-node/#use-kubectl-drain-to-remove-a-node-from-service)
 
 ::: warning
-Old WbStack documentation stated that normally the drain command could complain about some "local data and daemonsets".
+Old WbStack documentation stated that the drain command could complain about some "local data and daemonsets".
 
 Seemingly the `--delete-local-data --ignore-daemonsets` options helped, but these came with the note:
 
-WARNING: of course, check which pods are using those things first and if tis is actually safe...
+WARNING: of course, check which pods are using those things first and if it is actually safe...
 :::

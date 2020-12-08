@@ -17,5 +17,10 @@
     "vuepress-plugin-mermaidjs": "^1.8.1",
     "hallmark": "^3.1.0",
     "husky": "^5.0.4"
+  },
+  "hallmark": {
+    "ignore": [
+      "index.md"
+    ]
   }
 }

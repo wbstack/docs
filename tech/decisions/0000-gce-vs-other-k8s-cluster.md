@@ -29,7 +29,7 @@ On Wikimedia Cloud VPS I experimented with setting up a [custom cluster on a pro
 
 The main issues with this approach is the overhead when dealing with the fact that certain things that come for free in public clouds are not provided by default in this custom environment:
 
-- **LoadBalancer / Ingress**: It's possible to partly work around this (detailed in blog post) by having a single node have a static IP and serve as the host for the ingress.
+- **LoadBalancer / Ingress**: It's possible to partly work around this (detailed in blog post) by making a single node have a static IP and serve as the host for the ingress.
 - **Persistent cross node storage**: A storage provider for the shared NFS services could be used, this would likely be slow for things such as SQL. Or some cloud native storage service could be used, but could be effort.
 
 #### Manual Setup
@@ -41,15 +41,15 @@ The point of the Alpha is not to maintain a Kubernetes cluster, but prove that t
 
 #### KubeSpray
 
-[KubeSpray](https://github.com/kubernetes-sigs/kubespray) was super slow and annoying removing the cluster and recreating it which I was doing lots during development, this this seemed like a bad idea.
+[KubeSpray](https://github.com/kubernetes-sigs/kubespray) was super slow and annoying removing the cluster and recreating it which I was doing lots during development, this seemed like a bad idea.
 
 ### Google Kubernetes Engine
 
 Testing work was started on GKE as it was the easiest place to get a cluster up and running in a few minutes.
 It also allowed total cluster destruction and recreation in a few minutes.
-During development I also managed to make sure of a free credit offer.
+During development I also managed to make use of a free credit offer.
 
-GKE has the advantage of being able to make use of [pre-emtpible nodes](https://cloud.google.com/preemptible-vms/), which come and go as they please, but reduce costs.
+GKE has the advantage of being able to make use of [pre-emptible nodes](https://cloud.google.com/preemptible-vms/), which come and go as they please, but reduce costs.
 A service can be used to make using these nodes with Kubernetes rather painless ([read more](https://cloud.google.com/blog/products/containers-kubernetes/cutting-costs-with-google-kubernetes-engine-using-the-cluster-autoscaler-and-preemptible-vms)).
 
 One downside of staying with GKE is that the bandwidth egress is billed and could end up being a big cost much further down the line.
@@ -82,6 +82,6 @@ Google seems the least evil perhaps?
 
 Other reasons include:
 
-- Preemptive instances being cheaper (and I plan to use these..)
+- Pre-emptive instances being cheaper (and I plan to use these..)
 - More familiarity with the interface commands etc.
 - I'm not planning on using any cloud hoster features other than the k8s cluster itself a load balancer and maybe a bit of CDN (which I could also do on Kubernetes) so there is no real lock in and switching down the road should be easy enough.

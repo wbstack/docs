@@ -26,6 +26,8 @@ helm plugin install https://github.com/aslafy-z/helm-git
 If you get a warning about having 2 plugins with the same name it's likely that you have installed a plugin before with a slightly different URL.
 
 For example using `https://github.com/databus23/helm-diff` and `https://github.com/databus23/helm-diff.git` will cause this issue.
+
+The solution to this is to remove one of the conflicting ones directly from your filesystem using `rm`.
 :::
 
 ## Connecting kubectl

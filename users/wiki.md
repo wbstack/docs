@@ -7,8 +7,9 @@ All Wikis a running [MediaWiki](https://www.mediawiki.org) 1.35 with a collectio
 **Extensions:** DeleteBatch, Echo, Nuke, TemplateSandbox, CodeEditor,
 WikiEditor, EmbedVideo, Cite, Graph, Kartographer, Math, ParserFunctions, Poem, Score, Scribunto,
 SyntaxHighlight, TemplateData, ConfirmEdit, ReCaptchaNoCaptcha, TorBlock, PageImages,
-EntitySchema, Wikibase, AdvancedSearch, CLDR, JsonConfig, MobileFrontend, MultimediaViewer,
-OAuth, RevisionSlider, SecureLinkFixer, Thanks, TwoColConflict, UniversalLanguageSelector, WikbaseInWikitext
+EntitySchema, AdvancedSearch, CLDR, JsonConfig, MobileFrontend, MultimediaViewer,
+OAuth, RevisionSlider, SecureLinkFixer, Thanks, TwoColConflict, UniversalLanguageSelector,
+Wikibase, WikbaseInWikitext, WikibaseManifest
 
 ## Initial login
 

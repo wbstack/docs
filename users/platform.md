@@ -13,7 +13,7 @@ In order to create an account you need to hit the GET STARTED button in the top 
 
 This will take you to the [account creation page](https://www.wbstack.com/create-account).
 
-![](https://i.imgur.com/cYf2sI0.png)
+![](https://i.imgur.com/CohjsRc.png)
 
 ---
 

@@ -15,7 +15,7 @@ Wikibase, WikbaseInWikitext, WikibaseManifest
 
 Once you have created a Wiki the first account login details will be emailed to you.
 
-Look for an email like this.w
+Look for an email like this.
 
 ![](https://i.imgur.com/drpdiIJ.png)
 

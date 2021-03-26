@@ -4,8 +4,8 @@ All Wikis a running [MediaWiki](https://www.mediawiki.org) 1.35 with a collectio
 
 **Skins:** MinervaNeue, Modern, Timeless, Vector
 
-**Extensions:** DeleteBatch, Echo, Nuke, TemplateSandbox, CodeEditor,
-WikiEditor, EmbedVideo, Cite, Graph, Kartographer, Math, ParserFunctions, Poem, Score, Scribunto,
+**Extensions:** DeleteBatch, Echo, Nuke, TemplateSandbox, CodeEditor, CodeMirror, WikiEditor,
+EmbedVideo, Cite, Graph, Kartographer, Math, ParserFunctions, Poem, Score, WikiHiero, Scribunto,
 SyntaxHighlight, TemplateData, ConfirmEdit, ReCaptchaNoCaptcha, TorBlock, PageImages,
 EntitySchema, AdvancedSearch, CLDR, JsonConfig, MobileFrontend, MultimediaViewer,
 OAuth, RevisionSlider, SecureLinkFixer, Thanks, TwoColConflict, UniversalLanguageSelector,

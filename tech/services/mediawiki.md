@@ -24,5 +24,5 @@ A short APC cache exists for the wiki details to avoid spamming the API.
 In a mediawiki container:
 
 ```sh
-WW_DOMAIN=addshore-alpha.wiki.opencura.com php ./w/maintenance/showJobs.php
+WBS_DOMAIN=addshore-alpha.wiki.opencura.com php ./w/maintenance/showJobs.php
 ```

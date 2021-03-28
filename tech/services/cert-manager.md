@@ -9,6 +9,7 @@ Further Reading:
 
 - [Quickstart with nginx ingress](https://docs.cert-manager.io/en/release-0.10/tutorials/acme/quick-start/index.html)
 - [gcloud dns01 issuer docs](https://docs.cert-manager.io/en/latest/tasks/issuers/setup-acme/dns01/google.html)
+- [kubectl plugin](https://cert-manager.io/docs/usage/kubectl-plugin/)
 
 ## Installation
 
@@ -25,21 +26,6 @@ These can all be found in the deploy repo [k8s/definitions/cert-manager director
 - **00-namespace.yaml** - A namespace for the cert-manager deployment to live in.
 - **01-crds.yaml** - The CRDs for cert-manager (Custom Resource definitions)
 - **02-certificates-*.yaml** - The certificates for our domains (See warning below)
-
-::: warning
-When applying the certificate you will currently see and error for `unknown field "acme" in io.cert-manager.v1alpha2.Certificate.spec`
-
-For now you can ignore this error with `--validate=false`
-
-::: details
-On WBStack this YAML file has not been applied in a while and currently still has some old definition in it.
-
-The acme key has been removed and this setup needs updating.
-
-It was [deprecated in 0.8](https://cert-manager.io/docs/installation/upgrading/upgrading-0.7-0.8/#performing-an-incremental-switch-to-the-new-format).
-
-Watch this space.
-:::
 
 ### Service account
 

@@ -151,6 +151,8 @@ module.exports = {
           children: [
             '',
             'platform',
+            'platform-accounts',
+            'platform-wikis',
             'wiki',
           ]
         }

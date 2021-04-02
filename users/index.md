@@ -7,4 +7,3 @@ User friendly docs, hiding the technology and allowing you to quickly create a W
 - Queryservice - TBA
 - Magnus Tools - TBA
 
-Legacy community maintained docs can be found on [wiki.wbstack.com](https://wiki.wbstack.com/wiki/Main_Page).

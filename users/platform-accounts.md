@@ -1,4 +1,4 @@
-# Platform Accounts
+# Accounts
 
 The wbstack platform requires a user account to use.
 

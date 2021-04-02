@@ -150,9 +150,29 @@ module.exports = {
           collapsable: false,
           children: [
             '',
+          ]
+        },
+        {
+          title: 'Platform Docs',
+          collapsable: false,
+          children: [
             'platform',
             'platform-accounts',
             'platform-wikis',
+          ]
+        },
+        {
+          title: 'Feature Docs',
+          collapsable: false,
+          children: [
+            'feature-equiv-entities',
+            'feature-lexeme',
+          ]
+        },
+        {
+          title: 'Wiki Docs',
+          collapsable: false,
+          children: [
             'wiki',
           ]
         }

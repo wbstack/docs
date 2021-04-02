@@ -1,4 +1,4 @@
-# Platform Wikis
+# Wikis
 
 The wbstack platform allows you to create and manage Wikis.
 
@@ -37,7 +37,7 @@ You can also delete a wiki from this page.
 The features tab allows you to manage some specific Wikibase features.
 
 - Wikibase Equivalent Entities
-- Wikibase Lexeme
+- [Wikibase Lexeme](./feature-lexeme)
 - Wikibase Federated Properties
 
 ![](https://i.imgur.com/o7UlbmJ.png)

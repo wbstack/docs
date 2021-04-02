@@ -1,13 +1,13 @@
 # Platform Accounts
 
-The main platform can be found at [https://www.wbstack.com/](https://www.wbstack.com/)
+The wbstack platform requires a user account to use.
+
+## Creation
 
 ::: tip
 You need a invite code before you can create an account!
 If you don't have one, contact Addshore using [this form](https://addshore.com/contact/) or on [Twitter](https://twitter.com/addshore).
 :::
-
-## Creation
 
 In order to create an account you need to hit the GET STARTED button in the top right.
 

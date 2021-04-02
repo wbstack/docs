@@ -1,5 +1,7 @@
 # Platform Wikis
 
+The wbstack platform allows you to create and manage Wikis.
+
 ## Creation
 
 Navigate to the dashboard and click the + to create a new wiki.
@@ -22,11 +24,20 @@ You should find yourself on a management page which includes a link to your new 
 The account details of the first MediaWiki account will be emailed to your wbstack email address.
 :::
 
-## Management
+## Settings
 
-The management page allows you to alter various settings
+The settings tab allows you to alter various settings such as the default skin and logo.
 
-::: danger
-The management page will NOT show you the current values for the settings.
-It will however allow you to alter them by putting new value in.
-:::
+You can also delete a wiki from this page.
+
+![](https://i.imgur.com/CXQSirF.png)
+
+## Features
+
+The features tab allows you to manage some specific Wikibase features.
+
+- Wikibase Equivalent Entities
+- Wikibase Lexeme
+- Wikibase Federated Properties
+
+![](https://i.imgur.com/o7UlbmJ.png)

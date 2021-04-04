@@ -1,6 +1,6 @@
 # Wiki
 
-All Wikis a running [MediaWiki](https://www.mediawiki.org) 1.35 with a collection of skins and extensions:
+All Wikis are running [MediaWiki](https://www.mediawiki.org) 1.35 with a collection of skins and extensions:
 
 **Skins:** MinervaNeue, Modern, Timeless, Vector
 

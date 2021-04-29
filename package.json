@@ -13,10 +13,10 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "vuepress": "^1.8.2",
-    "vuepress-plugin-mermaidjs": "^1.8.1",
     "hallmark": "^3.1.0",
-    "husky": "^6.0.0"
+    "husky": "^6.0.0",
+    "vuepress": "^1.8.2",
+    "vuepress-plugin-mermaidjs": "^1.8.1"
   },
   "hallmark": {
     "ignore": [

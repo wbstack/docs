@@ -14,7 +14,10 @@ This is deployed using [Github actions](./.github/workflows/pages.build.yml) to 
 
 **Images:**
 
-Try to not upload images into this repository.
+Try to not upload large images, such as PNGs and JPGs, into this repository.
 
 The current recommendation is to use [imgur](https://imgur.com/) to host images.
 For easy screengrabs and upload to imgur you can try [sharex](https://getsharex.com/) or something similar.
+
+Some draw.io diagrams also exist within this code repository.
+If you use the VSCode browser then take a look at [this extension](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio)

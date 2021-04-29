@@ -14,7 +14,9 @@ Up until 2020 all of the code existed in a private mono-repo. During November an
 
 **Posts:**
 
-- [Addshore - Infrastructure](https://addshore.com/2020/01/wbstack-infrastructure/)
+
+- [Addshore - Infrastructure](https://addshore.com/2021/04/wbstack-infrastructure-2/)
+- [Addshore - Open Sourcing WBStack](https://addshore.com/2020/12/open-sourcing-wbstack/)
 - [Addshore - 2020 Update 1](https://addshore.com/2020/04/wbstack-2020-update-1/)
 - [Addshore - 2020 Update 2](https://addshore.com/2020/05/wbstack-2020-update-2/)
 

@@ -8,9 +8,7 @@ You can read about this decision [here](/tech/decisions/0000-gce-vs-other-k8s-cl
 
 The only current deployment of this stack is wbstack.com
 
-# Deployment overview
-
-![./../diagrams/2021-tech-overview-gce-k8s.drawio.svg]()
+![](./../diagrams/2021-tech-overview-gce-k8s.drawio.svg)
 
 # Code & Config
 

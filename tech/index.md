@@ -19,3 +19,5 @@ Github Actions are used in code repositories for testing and building of contain
 The wbstack.com deployment is managed in the [deploy git repository](https://github.com/wbstack/deploy).
 
 A private git repository is used alongside this to provide secret infomation to the deployments.
+
+![](./../diagrams/2021-tech-overview-develop-deploy.drawio.svg)

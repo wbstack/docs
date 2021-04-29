@@ -5,15 +5,15 @@ This decision document has not yet been formatted for nice display...
 :::
 
 Date: 27 August 2019
-Decision: Develop extra backend services as part of main Lumen codebase
-BUT keep boundaries clean and code deployable as seperate workloads.
+Decision: Develop extra backend services as part of main "api" codebase
+BUT keep boundaries clean and code deployable as separate workloads.
 
 In an ideal world it would make sense to develop lots of services, each concentrating
 on their little slice of pie. In the real world we need development speed and less
 resource consumption when running things. So lets kind of develop a monolith, but
 in a nice way?
 
-The main API is splint into 2 seperatly deployable sets of routes, which can also be
+The main API is splint into 2 separately deployable sets of routes, which can also be
 deployed with only the secrets that they need to know. This keeps any backend routes
 from being exposed in the public frontend API while also allowing some of the same code,
 models etc to be used.
@@ -38,7 +38,7 @@ include:
 ### backend QS service
 Recently a gateway prototype was created for the QS switching external prefixes to
 some internal ones for requests, getting the result, and then converting the result too.
-Right now the prototype is in PHP and realisticly performance doesn't matter too much
+Right now the prototype is in PHP and realistically performance doesn't matter too much
 here in ALPHA so this could become another backend route used internally (perhaps by the
 wdqs-proxy), so web -> wdqs-proxy -> backend-qs-api -> blazegraph
 
@@ -46,6 +46,6 @@ This QS service could also hold all of the updater and possible future loadbalan
 
 ### Others...
 
-Other services, queues and jobs could then be developed in this single lumen codebase app,
-but deployed seperatly as different k8s services and workloads allowing seperate reliability
+Other services, queues and jobs could then be developed in this single "api" codebase app,
+but deployed separately as different k8s services and workloads allowing separate reliability
 and scaling, possibility to split later down the line but fast development.

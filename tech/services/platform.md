@@ -2,9 +2,9 @@
 
 The main part of the platform is made up of a single [API](https://github.com/wbstack/api) and [UI](https://github.com/wbstack/ui).
 
-The UI is a simple Vue site providing a graphical interface to the main API.
+The UI is a simple VueJS site providing a graphical interface to the main API.
 
-The API is a PHP application (built using [Lumen](https://lumen.laravel.com/)) containing most of the logic managing the platform as a whole.
+The API is a PHP application (built using [Laravel](https://laravel.com/)) containing most of the logic managing the platform as a whole.
 
 - **Platform users**: invitation, verification, authentication
 - **Wiki sites**: creation, configuration, sql details, blazegraph details

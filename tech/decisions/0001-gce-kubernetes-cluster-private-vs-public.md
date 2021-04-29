@@ -1,21 +1,19 @@
 # Private vs Public GCE kubernetes cluster
 
-::: warning
-This decision document has not yet been formatted for nice display...
-:::
+**Date:** 15 May 2019
 
-Date: 15 May 2019
-Decision: Public
+**Decision:** Public clusters are the "right" thing to use now
 
 It would be a nice idea for the k8s cluster to be private (no node IP addresses), just because..
 However, making the k8s cluster private means that the nodes also can not contact the outside world.
-See: https://cloud.google.com/kubernetes-engine/docs/how-to/private-clusters#outbound_internet_for_nodes
+See: [https://cloud.google.com/kubernetes-engine/docs/how-to/private-clusters#outbound_internet_for_nodes](https://cloud.google.com/kubernetes-engine/docs/how-to/private-clusters#outbound_internet_for_nodes)
 Cloud NAT would mean we could do this, but there is an added cost...
 
-https://cloud.google.com/nat/pricing
-"an hourly price for the NAT gateway, starting at $0.045 per NAT gateway hour"
+From [https://cloud.google.com/nat/pricing](https://cloud.google.com/nat/pricing)
 
-0.045 * 24 * 30 = $32.40 per month
+> an hourly price for the NAT gateway, starting at $0.045 per NAT gateway hour
+
+`0.045 * 24 * 30 = $32.40 per month`
 
 This is a cost that is not worth it at this stage...
 

@@ -11,7 +11,7 @@ For example `index.php` starts like this:
 ```php
 <?php
 // Load custom wbstack code
-require_once __DIR__ . '/wikWikiInfoOrFail.php';
+require_once __DIR__ . '/wbstack/src/Shim/Web.php';
 // Actual MediaWiki code below here...
 ```
 

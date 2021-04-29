@@ -7,7 +7,7 @@ This decision document has not yet been formatted for nice display...
 Date: 23 August 2019
 Decision: Simple MySQL replicated DB for now. Maybe Vitess later.
 
-Even if OC grows quickly, there is no clear need for vitess for imediate sharding.
+Even if OC grows quickly, there is no clear need for vitess for immediate sharding.
 A single master setup (at least for wiki dbs) should suffice, and if it does not the
 easiest step forward for scalability would be to just create 1 more shard and create new
 dbs there, optionally moving old dbs.
@@ -15,7 +15,7 @@ This would require storing the shard / service / host of the wiki as well as the
 but this is trivial.
 
 https://vitess.io/docs/user-guides/production-planning/ specifices how much overhead
-vitess would bring to the initial setup, likely resulting in more imediate cost.
+vitess would bring to the initial setup, likely resulting in more immediate cost.
 
 It also says:
 "Before running Vitess in production, please make yourself comfortable first with the different operations. We recommend to go through the following scenarios on a non-production system."

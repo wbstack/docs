@@ -5,7 +5,7 @@
 **Problem:**
 
 There are multiple different options for a Kubernetes cluster.
-They have different costs, locking and acceptance in Wikimedia flavoured world (free and open).
+They have different costs, lock-in and acceptance in Wikimedia flavoured world (free and open).
 
 **Decision:**
 
@@ -17,11 +17,6 @@ org (depending on the future direction of this project)).
 ## Options
 
 Many options were considered for the initial hosting location of the alpha version.
-
-### Raspberry Pis
-
-I actually started working on this project planning to have a mini cluster of PIs up throughtout development work.
-This ended up not making much sense because of differing architecture types etc..
 
 ### "Bare Metal" VMs
 

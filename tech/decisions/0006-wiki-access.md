@@ -12,7 +12,7 @@ Possibility to open up other domains if we want to.
 Custom domains will be availbile further down the line (when HTTPS is tested and sorted.)
 
 Both www.<domain> and <domain> will redirect to the wiki.
-Of coures (www\.)?<domain>\/(wiki|w) will also go to the wiki
+Of course (www\.)?<domain>\/(wiki|w) will also go to the wiki
 
 So:
 /wiki or /w will go to MediaWiki

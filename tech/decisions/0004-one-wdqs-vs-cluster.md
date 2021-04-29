@@ -14,7 +14,7 @@ Also the complexity of queries should be fairly low as most data sets should be 
 
 It should be easy to spot growth in this area and easy to adapt to changes.
 
-If the JNL breaks, initially it shoudlnt be toooo hard to reload ALL of the data for
+If the JNL breaks, initially it shouldn't be too hard to reload ALL of the data for
 all of the wikis. And this could be expected in Alpha...
 
 If number of READ queries is too much then we need another copy with the same data set.

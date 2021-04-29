@@ -1,6 +1,6 @@
 # Public Interface
 
-All traffic into the platform or hosted sites runs through a Kubernetes ingress and nginx proxy.
+All traffic into the platform or hosted sites runs through a [Kubernetes ingress](services/ingress) and [Nginx proxy](services/platform-nginx).
 
 ## Platform
 
@@ -8,7 +8,7 @@ The platform itself is made up of a simple UI [www.wbstack.com](https://www.wbst
 
 ## Sites
 
-All Sites exist under a single domain (or subdomain).
+All sites exist under a single domain (or subdomain), and make use of shared resources for requests.
 
 For example for the site [addshore-alpha.wiki.opencura.com](https://addshore-alpha.wiki.opencura.com):
 

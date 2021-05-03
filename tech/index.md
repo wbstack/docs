@@ -4,7 +4,7 @@ WBStack is designed to run on Kubernetes with as little dependency on external s
 
 The Kubernetes cluster for wbstack.com currently runs on Google Kubernetes Engine.
 
-You can read about this decision [here](/tech/decisions/0000-gce-vs-other-k8s-cluster).
+You can read about this decision [here](/docs/tech/decisions/0000-gce-vs-other-k8s-cluster).
 
 The only current deployment of this stack is wbstack.com
 

@@ -140,7 +140,7 @@ module.exports = {
             'decisions/0005-backend-apis-and-services',
             'decisions/0006-wiki-access',
             'decisions/0008-custom-domains-ingress-creation',
-            'decisions/tba-api-using-laravel',
+            'decisions/0009-api-using-laravel',
           ]
         }
       ],

@@ -1,11 +1,19 @@
 # Funding
 
-[Rhizome](https://rhizome.org/) and [Addshore](https://addshore.com) have covered all of the operational and development costs of WBStack to date.
+To date WBStack has been funded one way or another by [Rhizome](https://rhizome.org/), [Addshore](https://addshore.com) and [Wikimedia Deutschland](https://www.wikimedia.de/).
 
-## Costs
+## Development
 
-Development resources primarily donated by Addshore and some other volunteers.
+Primary development has been done by Addshore, seeing a few volunteer contributions along the way.
 
-Infrastructure is primarily paid for Rhizome. This consists of a Google Cloud project powering a Kubernetes cluster.
+Toward the end of 2020 patches from Wikimedia Deutschland engineers start making their way into the WBStack code bases.
 
-Any other expenses are currently covered by Addshore.
+## Infrastructure
+
+Addshore covered the cost of the initial Google cloud bill, along with other miscellaneous expenses such as domains.
+
+Once launched Rhizome started covering the costs of the Google cloud bill.
+
+Toward the beginning of 2021 [Wikimedia Deutschland](https://www.wikimedia.de/) took over payments of the Google Cloud resources.
+
+Throughout this time the infrastructure of WBStack continues to be operated by Addshore independently of Wikimedia Deutschland.

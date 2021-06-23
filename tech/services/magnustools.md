@@ -13,16 +13,16 @@ These tools use OAuth authentication for MediaWiki interactions.
 
 OAuth consumer creation is automated using an internal only MediaWiki API action.
 
-[magnustools](https://github.com/wbstack/magnustools) code, which is used by the tools, is overridden to fetch Consumer data from this API instead of an INI file ([code](https://github.com/wbstack/magnustools/blob/429f68414b98fed4800cc010b8813abb8d624eb5/public_html/php/WbstackMagnusOauth.php#L86-L131))
+[magnustools](https://github.com/wbstack/magnustools) code, which is used by the tools as a composer library, is overridden to fetch consumer data from this API instead of an INI file ([code](https://github.com/wbstack/magnustools/blob/429f68414b98fed4800cc010b8813abb8d624eb5/public_html/php/WbstackMagnusOauth.php#L86-L131))
 
 ```mermaid
 sequenceDiagram
     User->>+Tool: Request that will need Consumer details
     Note right of Tool: Tools need Consumer key or secret
-    Tool->>+MediaWiki: Get the details of my Consumer
+    Tool->>+MediaWiki: Get the details of tool Consumer
     MediaWiki->>+MediaWiki: Get or create OAuth Consumer
     MediaWiki->>+Tool: Consumer Details
-    Tool->>+User: Respond to origional request
+    Tool->>+User: Respond to original request
 ```
 
 

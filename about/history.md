@@ -4,6 +4,12 @@ Here you will find some of the key historical points for WBStack.
 
 Throughout it's life the private git repository (original mono-repo) has seen 1600+ commits over 3 years (as of Dec 2020).
 
+## 2021 - Wikimedia Deutschland involvement
+
+- [LD4 presentation: History, Present & Future of WBStack & WBaas](https://docs.google.com/presentation/d/1A8AxUX4VY3O5IC7UpCYoPESAsc8EP8b0WLiAlVP2kJI)
+
+“Wikibase evaluation service (Wikibase as a Service MVP): Development” landed on the WMDE development plan.
+
 ## 2020 - Open Source
 
 WBStack ran through 2020 with little development or maintenance work, but a few large updates..
@@ -12,8 +18,9 @@ During this time it upgraded from MediaWiki 1.33 to 1.35, and various services w
 
 Up until 2020 all of the code existed in a private mono-repo. During November and December it was [all opensourced](https://github.com/wbstack).
 
-**Posts:**
+“MVP for Wikibase as a service platform” landed on the Wikimedia Deutschland development plan.
 
+**Posts:**
 
 - [Addshore - Infrastructure](https://addshore.com/2021/04/wbstack-infrastructure-2/)
 - [Addshore - Open Sourcing WBStack](https://addshore.com/2020/12/open-sourcing-wbstack/)

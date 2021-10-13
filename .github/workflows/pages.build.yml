@@ -13,6 +13,6 @@ jobs:
     - name: vuepress-deploy
       uses: jenkey2011/vuepress-deploy@master
       env:
-        ACCESS_TOKEN: ${{ secrets.CR_PAT }}
+        ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         BUILD_SCRIPT: npm i && npm run build
         BUILD_DIR: .vuepress/dist/

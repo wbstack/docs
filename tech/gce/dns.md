@@ -1,7 +1,8 @@
 # DNS
 
 ::: tip
-All DNS management currently takes place in the deploy repo [gce/dns directory](https://github.com/wbstack/deploy/tree/main/gce/dns).
+All DNS management currently takes place in [the deploy repo repo gce/dns directory](https://github.com/wbstack/deploy/tree/main/gce/dns).
+However we would recommend that you setup resources like this using **Terraform**.
 :::
 
 The DNS records for `wbstack.com` and `opencura.com` are managed on Google Cloud.

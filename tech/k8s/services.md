@@ -93,7 +93,7 @@ And the platform to manage all the things:
 And the app services themselves:
 
 - [mediawiki135](https://github.com/wbstack/deploy/tree/main/k8s/helm/mediawiki135)
-- [mediawiki134](https://github.com/wbstack/deploy/tree/main/k8s/helm/mediawiki134) (Currently still needed for a OAuth issue with some tools)
+- [elasticsearch](https://github.com/wbstack/deploy/tree/main/k8s/helm/elasticsearch)
 - [queryservice](https://github.com/wbstack/deploy/tree/main/k8s/helm/queryservice)
 - [queryservice-gateway](https://github.com/wbstack/deploy/tree/main/k8s/helm/queryservice-gateway)
 - [queryservice-updater](https://github.com/wbstack/deploy/tree/main/k8s/helm/queryservice-updater)

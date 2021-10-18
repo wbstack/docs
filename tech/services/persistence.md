@@ -10,7 +10,7 @@ This is currently setup with replication enabled.
 
 An elasticsearch service, using the WMDE Wikibase flavours elastic search docker image operates for use by MediaWiki and Wikibase.
 
-This is currently setup in a cluster.
+This is currently setup in a cluster of 3.
 
 ## redis
 

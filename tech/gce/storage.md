@@ -55,4 +55,9 @@ Old docs for that process exist:
 
 ## Buckets
 
+::: tip
+We would recommend that you setup resources like this using **Terraform**.
+:::
+
 Sets up a bucket for holding some static files to be served (like logos).
+This will be accessed by the API.

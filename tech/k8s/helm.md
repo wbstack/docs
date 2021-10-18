@@ -3,7 +3,7 @@
 ::: tip
 All deployed helmfiles are in the deploy repo [k8s/helm directory](https://github.com/wbstack/deploy/tree/main/k8s/helm).
 
-All custom helm charts are in the deploy repo [charts directory](https://github.com/wbstack/deploy/tree/main/chart).
+All custom helm charts are in the deploy repo [charts repository](https://github.com/wbstack/charts).
 :::
 
 Most services are deployed using [helm](https://helm.sh/) and [helmfile](https://github.com/roboll/helmfile).

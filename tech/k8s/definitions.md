@@ -2,6 +2,7 @@
 
 ::: tip
 All definitions are in the deploy repo [k8s/definitions directory](https://github.com/wbstack/deploy/tree/main/k8s/definitions).
+However we would recommend that you setup resources like this using **Terraform** or **helmfile**.
 :::
 
 The definitions are static kubernetes YAML files.

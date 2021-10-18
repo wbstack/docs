@@ -22,3 +22,5 @@ For example for the site [addshore-alpha.wiki.opencura.com](https://addshore-alp
   - [addshore-alpha.wiki.opencura.com/tools/cradle](https://addshore-alpha.wiki.opencura.com/tools/cradle)
   - [addshore-alpha.wiki.opencura.com/tools/quickstatements](https://addshore-alpha.wiki.opencura.com/tools/quickstatements)
   - [addshore-alpha.wiki.opencura.com/tools/widar](https://addshore-alpha.wiki.opencura.com/tools/widar)
+
+The platform currently allows use of subdomains of a domain for free, or you can provide your own custom domain.

@@ -98,7 +98,6 @@ module.exports = {
             'gce/snapshots',
             'gce/storage',
             'gce/monitoring',
-            'gce/images',
           ]
         },
         {

@@ -1,7 +1,7 @@
 # IP Addresses
 
 ::: tip
-Code for the initial wbstack.com setup is availbile in [the deploy repo gce/ip directory](https://github.com/wbstack/deploy/tree/main/gce/ip).
+Code for the initial wbstack.com setup is availbile in [the deploy repo gce/ip directory](https://github.com/wbstack/deploy/tree/main/gce/ips).
 However we would recommend that you setup resources like this using **Terraform**.
 :::
 

@@ -14,7 +14,7 @@ module.exports = {
    * Ref：https://v1.vuepress.vuejs.org/guide/assets.html#base-url
    * Ref: https://vuepress.vuejs.org/guide/deploy.html#github-pages
    */
-  base: "/docs/",
+  base: "/",
 
   /**
    * Extra tags to be injected to the page HTML `<head>`

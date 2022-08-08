@@ -14,6 +14,6 @@ You can read the [original announcement post here](https://addshore.com/2019/11/
 
 wbstack.com has [since been sunset](https://addshore.com/2022/02/wbstack-close-and-migration/) and a new service setup by Wikimedia Deutschland at [wikibase.cloud](https://wikibase.cloud).
 
-The WBStack name lives on representing the technology and opne source code bases that provide the wikibase.cloud service today.
+The WBStack name lives on representing the technology and open source code bases that provide the wikibase.cloud service today.
 
 ![](https://addshore.com/wp-content/uploads/2019/11/wbstack-capture-initial.png)

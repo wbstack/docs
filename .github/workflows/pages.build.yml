@@ -16,3 +16,4 @@ jobs:
         ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         BUILD_SCRIPT: npm i && npm run build
         BUILD_DIR: .vuepress/dist/
+        CNAME: www.wbstack.com

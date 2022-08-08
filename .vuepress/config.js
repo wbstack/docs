@@ -4,7 +4,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: "WBStack Docs",
+  title: "WBStack",
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -54,8 +54,8 @@ module.exports = {
         link: '/users/'
       },
       {
-        text: 'WBStack',
-        link: 'https://www.wbstack.com'
+        text: 'Wikibase.cloud',
+        link: 'https://wikibase.cloud'
       },
       {
         text: 'Github',

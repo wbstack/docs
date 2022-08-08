@@ -4,6 +4,10 @@ Here you will find some of the key historical points for WBStack.
 
 Throughout it's life the private git repository (original mono-repo) has seen 1600+ commits over 3 years (as of Dec 2020).
 
+## 2022 - Wikibase.cloud
+
+Launch of wikibase.cloud and sunset of wbstack.com as a hosting platform.
+
 ## 2021 - Wikimedia Deutschland involvement
 
 - [LD4 presentation: History, Present & Future of WBStack & WBaas](https://docs.google.com/presentation/d/1A8AxUX4VY3O5IC7UpCYoPESAsc8EP8b0WLiAlVP2kJI)

@@ -1,7 +1,7 @@
 # Open Source
 
-[WBStack](https://www.wbstack.com) is run using open source code and configuration.
+All code for the platform is open source. You can find it in the [Github Organization](https://github.com/wbstack).
 
-You can find everything in the [Github Organization](https://github.com/wbstack).
+wbstack.com was run using open source configuration. You can find this in the [old deploy repository](https://github.com/wbtack/deploy)
 
-Although some of the code or configuration may currently have hard coded references to wbstack or opencura the goal would be that everything is easily reusable for other projects.
+wikibase.cloud does not currently have it's configuration repository open.

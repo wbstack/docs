@@ -1,4 +1,4 @@
-# WBStack Docs
+# WBStack
 
 Code for a docs site generated using [vuepress](https://vuepress.vuejs.org/).
 

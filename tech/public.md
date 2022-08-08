@@ -4,11 +4,15 @@ All traffic into the platform or hosted sites runs through a [Kubernetes ingress
 
 ## Platform
 
-The platform itself is made up of a simple UI [www.wbstack.com](https://www.wbstack.com/) and API [www.wbstack.com/api](https://www.wbstack.com/api).
+The platform itself is made up of a simple UI and API.
 
 ## Sites
 
 All sites exist under a single domain (or subdomain), and make use of shared resources for requests.
+
+The platform currently allows use of subdomains of a domain for free, or you can provide your own custom domain.
+
+In the exmaple below, the free subdomains that sites can use is `*.wiki.opencura.com`
 
 For example for the site [addshore-alpha.wiki.opencura.com](https://addshore-alpha.wiki.opencura.com):
 
@@ -22,5 +26,3 @@ For example for the site [addshore-alpha.wiki.opencura.com](https://addshore-alp
   - [addshore-alpha.wiki.opencura.com/tools/cradle](https://addshore-alpha.wiki.opencura.com/tools/cradle)
   - [addshore-alpha.wiki.opencura.com/tools/quickstatements](https://addshore-alpha.wiki.opencura.com/tools/quickstatements)
   - [addshore-alpha.wiki.opencura.com/tools/widar](https://addshore-alpha.wiki.opencura.com/tools/widar)
-
-The platform currently allows use of subdomains of a domain for free, or you can provide your own custom domain.

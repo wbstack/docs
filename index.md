@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: https://i.imgur.com/sZkOFrK.png
-tagline: Documentation site for WBStack
+tagline: Platform for shared Wikibase hosting
 actionText: Learn more →
 actionLink: /about/
 features:

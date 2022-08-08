@@ -46,11 +46,11 @@ module.exports = {
         link: '/about/',
       },
       {
-        text: 'Technology',
+        text: 'Tech Docs',
         link: '/tech/'
       },
       {
-        text: 'Users',
+        text: 'User Docs',
         link: '/users/'
       },
       {

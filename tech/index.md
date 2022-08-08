@@ -6,7 +6,7 @@ The Kubernetes cluster for wbstack.com was run on Google Kubernetes Engine.
 
 You can read about this decision [here](/docs/tech/decisions/0000-gce-vs-other-k8s-cluster).
 
-The only current deployment of this stack is [wikibase.cloud(https://wikibase.cloud).
+The only current deployment of this stack is [wikibase.cloud](https://wikibase.cloud).
 
 ![](./../diagrams/2021-tech-overview-gce-k8s.drawio.svg)
 

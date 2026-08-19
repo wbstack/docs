@@ -8,16 +8,20 @@ You can read about this decision [here](/docs/tech/decisions/0000-gce-vs-other-k
 
 The only current deployment of this stack is [wikibase.cloud](https://wikibase.cloud).
 
-![](./../diagrams/2021-tech-overview-gce-k8s.drawio.svg)
+![](./../diagrams/2026-tech-overview-gce-k8s.drawio.svg)
 
 # Code & Config
 
-All code lives on Github in the [wbstack org](https://github.com/wbstack).
+All code lives on Github in the [wbstack org](https://github.com/wbstack) or the [wmde org](https://github.com/wmde)
 
 Github Actions are used in code repositories for testing and building of containers.
 
+Wikibase.cloud deployment is managed by a [public deploy git repository](https://github.com/wmde/wbaas-deploy). This includes Terraform/OpenTofu code and configuration for kubernetes tooling.
+
+## Historic
+
 The wbstack.com deployment was managed in the [deploy git repository](https://github.com/wbstack/deploy).
 
-A private git repository is used alongside this to provide secret infomation to the deployments.
+A private git repository was used alongside this to provide secret infomation to the deployments.
 
 ![](./../diagrams/2021-tech-overview-develop-deploy.drawio.svg)
